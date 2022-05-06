@@ -1,0 +1,131 @@
+.servicos {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 100px;
+  align-items: center;
+  background-color: #f0f7f7;
+  padding-bottom: 100px;
+}
+
+.servicos span {
+  font-weight: bold;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  color: #00856F;
+}
+
+.servicos h2 {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 39px;
+  text-align: center;
+  color: #212529;
+  width: 250px;
+}
+
+.container-resume-servicos {
+  display: flex;
+  flex-direction: column;
+  width: 327px;
+  height: 150px;
+  background: #FFFFFF;
+  margin-bottom: 20px;
+  border: 1px solid #DCE9E2;
+  border-radius: 6px;
+}
+
+.container-resume-servicos img {
+  width: 17px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.container-resume-servicos h2,
+.container-resume-servicos p {
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+.container-resume-servicos h2 {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: #212529;
+  text-align: start;
+}
+
+.container-resume-servicos p {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 110%;
+  color: #495057;
+  text-align: start;
+}
+
+.content-sobre img {
+  padding-bottom: 50px;
+}
+
+@media(min-width:600px) {
+  .container-servicos {
+    margin-top: 50px;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .container-resume-servicos {
+    width: 90%;
+  }
+
+  .servicos h2 {
+    width: 80%;
+  }
+}
+
+@media(min-width:1000px) {
+  .container-servicos {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .container-resume-servicos h2 {
+    font-size: 1.4rem;
+  }
+
+  .container-resume-servicos p {
+    font-size: 1.2rem;
+  }
+}
+
+@media(min-width:1500px) {
+  .servicos span {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+  }
+
+  .servicos h2 {
+    font-size: 2.1rem;
+  }
+
+  .container-resume-servico {
+    height: 100%;
+    width: 100%;
+  }
+
+  .container-resume-servicos img {
+    width: 25px;
+  }
+
+  .container-resume-servicos p {
+    font-size: 1.32rem;
+  }
+}
