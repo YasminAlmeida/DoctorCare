@@ -11,6 +11,8 @@
   font-weight: normal;
   cursor: pointer;
   width: max-content;
+  display: flex;
+  align-items: center;
 }
 
 .button-whats img {
@@ -48,6 +50,9 @@
 
 .information-left {
   width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .container-left h1 {
@@ -106,6 +111,17 @@
   color: #00856F;
 }
 
+.js-scroll {
+  opacity: 0;
+  transform: translate3d(-30, 0, 0);
+}
+
+.js-scroll.ativo {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  transition: .4s;
+}
+
 @media(min-width:600px) {
 
   .content {
@@ -119,6 +135,7 @@
     align-items: flex-start;
     flex-direction: row !important;
     justify-content: center;
+    align-items: center;
   }
 
   .first-container {
@@ -145,6 +162,7 @@
 
   .button-whats {
     font-size: 1rem;
+    margin-bottom: 20px;
   }
 
   .container-left p {
@@ -153,6 +171,7 @@
 
   .foto {
     margin-top: 60px;
+    width: 30%;
   }
 }
 

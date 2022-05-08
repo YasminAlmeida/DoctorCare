@@ -5,6 +5,7 @@
   justify-items: start;
   margin-left: 20px;
   margin-top: 80px;
+  margin-right: 20px;
 }
 
 address img {
@@ -60,6 +61,16 @@ footer img {
 @media(min-width:600px) {
   .container-contato {
     grid-template-columns: 1fr 1fr;
+    padding-bottom: 30px;
+  }
+
+  .container-contato h2 {
+    width: 100%;
+    font-size: 1.7rem;
+  }
+
+  .foto-celular {
+    margin-top: 0;
   }
 
   footer {
@@ -72,13 +83,6 @@ footer img {
   address figure {
     display: flex;
     justify-content: flex-end;
-  }
-}
-
-@media(min-width:600px) {
-  .container-contato h2 {
-    width: 100%;
-    margin-bottom: 40px;
   }
 
   .contato-left address {
@@ -95,23 +99,49 @@ footer img {
   }
 }
 
-@media(min-width:1500px) {
+@media(min-width:700px) {
   .container-contato h2 {
-    font-size: 2.8rem;
+    font-size: 1.5rem;
   }
 
-  .contato-left address {
-    font-size: 1.8rem;
+  @media(min-width:900px) {
+    .contato-left address {
+      font-size: 1.5rem;
+      padding-bottom: 20px;
+    }
+
+    .button-whats {
+      font-size: 1.2rem;
+    }
+
+    .contato-left div {
+      display: flex;
+      margin-bottom: 50px;
+    }
+
+    .container-contato h2 {
+      font-size: 2rem;
+    }
   }
 
-  .contato-left address img {
-    width: 40px;
-    margin-left: 10px;
-  }
-}
+  @media(min-width:1500px) {
+    .container-contato h2 {
+      font-size: 2.8rem;
+    }
 
-@media(min-width:1800px) {
-  .foto-celular {
-    width: 900px;
+    .contato-left address {
+      font-size: 1.8rem;
+    }
+
+    .contato-left address img {
+      width: 40px;
+      margin-left: 10px;
+    }
+  }
+
+  @media(min-width:1800px) {
+    .foto-celular {
+      width: 900px;
+    }
   }
 }

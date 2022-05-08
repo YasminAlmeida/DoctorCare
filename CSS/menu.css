@@ -7,13 +7,18 @@
 
 header {
   background-color: #DCE9E2;
-  padding-bottom: 20px;
+  padding-bottom: 8px;
+  z-index: 1;
+  position: sticky;
+  top: 0;
 }
+
 
 .sticky {
   background-color: #00453A;
   position: fixed;
   width: 100%;
+  z-index: 1;
 }
 
 .sticky+.content {

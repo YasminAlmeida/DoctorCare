@@ -21,11 +21,10 @@
     </div>
     <nav class="itens-menu">
       <ul>
-        <li><a href="">Início</a></li>
-        <li><a href="">Sobre</a> </li>
-        <li><a href="">Serviços</a></li>
-        <li><a href="">Depoimentos</a></li>
-        <li><a href="">Agende sua consulta</a></li>
+        <li><a href="#home">Início</a></li>
+        <li><a href="#about">Sobre</a> </li>
+        <li><a href="#services">Serviços</a></li>
+        <li><a href="#contact">Agende sua consulta</a></li>
       </ul>
       <figure class="links">
         <img src="./img/instagram-p.svg" alt="" srcset="">
@@ -35,13 +34,14 @@
     </nav>
   </header>
   <main class="content">
-    <section class="first-container">
+    <img class="arrow" src="./img/arrow.svg" alt="" srcset="">
+    <section id="home" class="first-container js-scroll">
       <div class="container-left">
         <div class="information-left">
           <h3>BOAS-VINDAS A DOCTORCARE👋</h3>
           <h1>Assistência médica simplificada para todos</h1>
           <p>Os médicos da DoctorCare vão além dos sintomas para tratar a causa raiz de sua doença e proporcionar uma cura a longo prazo.</p>
-          <a class="button-whats" href=""><img src="./img/whatsapp.svg" alt="" srcset=""> AGENDE SUA CONSULTA</a>
+          <a class="button-whats"><img src="./img/whatsapp.svg" alt="" srcset=""> AGENDE SUA CONSULTA</a>
         </div>
 
         <img class="foto" src="./img/foto.png" alt="" srcset="">
@@ -62,7 +62,7 @@
         </div>
       </div>
     </section>
-    <section class="servicos">
+    <section id="services" class="servicos  js-scroll">
       <span>Serviços</span>
       <h2>Como podemos ajudá-lo a se sentir melhor?</h2>
       <div class="container-servicos">
@@ -98,16 +98,16 @@
         </div>
       </div>
     </section>
-    <section class="content-sobre">
-      <div>
+    <section class="content-sobre js-scroll">
+      <div id="about">
         <span>SOBRE NÓS</span>
         <h2>Entenda quem somos e por que existimos</h2>
         <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
       </div>
       <img src="./img/doctor.png" alt="" srcset="">
     </section>
-    <section class="container-contato">
-      <div class="contato-left">
+    <section class="container-contato js-scroll">
+      <div id="contact" class="contato-left">
         <h2>Entre em contato com a gente!</h2>
         <address>
           <div>
@@ -119,7 +119,7 @@
             <p>contato@doctorcare.com</p>
           </div>
         </address>
-        <a class="button-whats" href=""><img src="./img/whatsapp.svg" alt="" srcset=""> AGENDE SUA CONSULTA</a>
+        <a class="button-whats"><img src="./img/whatsapp.svg" alt="" srcset=""> AGENDE SUA CONSULTA</a>
       </div>
       <img class="foto-celular" src="./img/pic (1).png" alt="" srcset="">
     </section>
